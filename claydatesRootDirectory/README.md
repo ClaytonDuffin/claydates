@@ -80,9 +80,9 @@ The claydates package serves to clean and restructure financial data retrieved f
                                         testMultiTickerPlotter.py
 ```
 
-## Quick-Usage Examples
+## Quick Usage Examples
 
-**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick-usage example provided here.**
+**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick usage example provided here.**
 
 ### SingleTickerProcessor
 ```
