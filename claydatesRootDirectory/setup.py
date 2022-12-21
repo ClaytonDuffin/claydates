@@ -3,18 +3,22 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / 'README.md').read_text()
 
 from setuptools import setup, find_packages
-
 setup(
       name='claydates',
-      version='1.0.0',
+      version='1.0.3',
       description='Package used for cleaning, restructuring, logging, and plotting of financial data retrieved from the Twelve Data API.',
       long_description=long_description,
       long_description_content_type='text/markdown',
+      url='https://github.com/ClaytonDuffin/claydates',
       readme='README.md',
       author='Clayton Duffin',
       author_email='clayduffin@gmail.com',
-      license_files = ('LICENSE'),
-      packages=find_packages('claydates'),
+      license_files=('LICENSE'),
+      packages=find_packages(exclude=['tests']),
+      package_data={'claydates': [str(this_directory) + '/claydates/datasets/currencyPairs.txt',
+                                  str(this_directory) + '/claydates/datasets/key.txt',
+                                  str(this_directory) + '/claydates/datasets/missingDataLog.csv',
+                                  str(this_directory) + '/claydates/datasets/exampleSet.csv']},
       install_requires=[['matplotlib',
                          'numpy',
                          'pandas',
