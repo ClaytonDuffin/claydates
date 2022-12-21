@@ -69,7 +69,7 @@ class SingleTickerProcessor():
         self._apiKeyfilePath = (str(os.path.dirname(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))))) + '/datasets/key.txt')
         self._apiKey = open(self._apiKeyfilePath, 'r').read()
         if self._apiKey == '':
-            print('Please obtain an API key from https://twelvedata.com/ and add it to the KEY.txt file.')
+            print('Please obtain an API key from https://twelvedata.com/ and add it to the key.txt file in the claydates datasets folder located in site-packages.')
         
         self._mockResponse = mockResponse
         if mockResponse:
