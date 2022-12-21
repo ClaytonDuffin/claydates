@@ -261,6 +261,12 @@ The claydates package serves to clean and restructure financial data retrieved f
 ```
 ## History <a name = "history"></a>
 
+### version 1.0.4.
+* Added Table of Contents.
+* Fixed typo in singleTickerProcessor.py.
+* December, 2022.
+* [https://pypi.org/project/claydates/1.0.4/](https://pypi.org/project/claydates/1.0.4/)
+
 ### version 1.0.3.
 * Fixed typo in README.md.
 * December, 2022.
