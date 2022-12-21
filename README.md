@@ -1,11 +1,24 @@
-﻿
+
 # The claydates Package
 
-## Installation 
+## Table of Contents
+
++ [Installation](#installation)
++ [Description](#description)
++ [Directory Tree](#dirtree)
++ [Quick Usage Examples](#quickUse)
+    + [SingleTickerProcessor](#stpro)
+    + [MultiTickerProcessor](#mtpro)
+    + [SingleTickerPlotter](#stplo)
+    + [MultiTickerPlotter](#mtplo)
++ [History](#history)
++ [Gallery](#gallery)
+
+## Installation <a name = "installation"></a>
 ```
 pip install claydates
 ```
-## Description 
+## Description <a name = "description"></a>
 The claydates package serves to clean and restructure financial data retrieved from the Twelve Data API. Secondarily, it allows for the user to nicely plot time series data using numerous cleaning and restructuring methodologies. Additionally, it provides the user with the option to store information on data quality during usage, which may later provide insight into changes in data quality over time for certain tickers.
 
 
@@ -37,7 +50,7 @@ The claydates package serves to clean and restructure financial data retrieved f
             - It is the child class of MultiTickerProcessor and SingleTickerPlotter.
 ```
 
-## Directory Tree 
+## Directory Tree <a name = "dirtree"></a>
 ```
                                 claydatesRootDirectory
                                 │   README.md
@@ -80,11 +93,11 @@ The claydates package serves to clean and restructure financial data retrieved f
                                         testMultiTickerPlotter.py
 ```
 
-## Quick Usage Examples
+## Quick-Usage Examples <a name = "quickUse"></a>
 
-**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick usage example provided here.**
+**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick-usage example provided here.**
 
-### SingleTickerProcessor
+### SingleTickerProcessor <a name = "stpro"></a>
 ```
 1.) from claydates import SingleTickerProcessor
 
@@ -107,7 +120,7 @@ The claydates package serves to clean and restructure financial data retrieved f
 
     3a.) singleTickerProcessor.unalteredFrameGetter()
 ```
-### MultiTickerProcessor
+### MultiTickerProcessor <a name = "mtpro"></a>
 ```
 1.) from claydates import MultiTickerProcessor
  
@@ -141,7 +154,7 @@ The claydates package serves to clean and restructure financial data retrieved f
 
     6a.) multiTickerProcessor.missingPercentages(onlyPrint = True)
 ```
-### SingleTickerPlotter
+### SingleTickerPlotter <a name = "stplo"></a>
 ```
 1.) from claydates import SingleTickerPlotter
 
@@ -203,7 +216,7 @@ The claydates package serves to clean and restructure financial data retrieved f
 
     10a.) singleTickerPlotter.liveSinglePlot(numberOfUpdates = 14400, interactiveExternalWindow = False, secondsToSleep = 55)
 ```
-### MultiTickerPlotter
+### MultiTickerPlotter <a name = "mtplo"></a>
 ```
 1.) from claydates import MultiTickerPlotter
  
@@ -246,7 +259,7 @@ The claydates package serves to clean and restructure financial data retrieved f
     6a.) multiTickerPlotter.liveMultiPlot(method = multiTickerPlotter.missingUnitsExcluded, matchDates = True, interpolationMethod = None,
                                           interactiveExternalWindow = False, scaled = True, numberOfUpdates = 14400, secondsToSleepFor = 55)
 ```
-## History 
+## History <a name = "history"></a>
 
 ### version 1.0.3.
 * Fixed typo in README.md.
@@ -269,12 +282,12 @@ The claydates package serves to clean and restructure financial data retrieved f
 * [https://pypi.org/project/claydates/1.0.0/](https://pypi.org/project/claydates/1.0.0/)
 
 
-## Gallery 
-![enter image description here](https://user-images.githubusercontent.com/116965482/208491965-e922065a-0891-4efa-ae1e-2f8e74c1cfa4.png)
+## Gallery <a name = "gallery"></a>
+![](https://user-images.githubusercontent.com/116965482/208491965-e922065a-0891-4efa-ae1e-2f8e74c1cfa4.png)
 ![](https://user-images.githubusercontent.com/116965482/208492153-5ee0fac2-070e-4544-a346-860de5edde45.png)
 
 ![](https://user-images.githubusercontent.com/116965482/208491686-ee5cc406-f27f-4bcb-b35e-41bf94824fd7.png)
-![enter image description here](https://user-images.githubusercontent.com/116965482/208492232-15438eae-8d6f-4ba9-bd48-362310cddb4c.png)
-![enter image description here](https://user-images.githubusercontent.com/116965482/208492343-4f412a0b-7971-4f7c-8dc7-b1ec218bfe0e.png)
+![](https://user-images.githubusercontent.com/116965482/208492232-15438eae-8d6f-4ba9-bd48-362310cddb4c.png)
+![](https://user-images.githubusercontent.com/116965482/208492343-4f412a0b-7971-4f7c-8dc7-b1ec218bfe0e.png)
 
 <br/>
