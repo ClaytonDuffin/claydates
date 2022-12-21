@@ -248,6 +248,21 @@ The claydates package serves to clean and restructure financial data retrieved f
 ```
 ## History 
 
+### version 1.0.3.
+* Fixed typo in README.md.
+* December, 2022.
+* [https://pypi.org/project/claydates/1.0.3/](https://pypi.org/project/claydates/1.0.3/)
+
+### version 1.0.2.
+* Added datasets folder to install.
+* December, 2022.
+* [https://pypi.org/project/claydates/1.0.2/](https://pypi.org/project/claydates/1.0.2/)
+
+### version 1.0.1.
+* Fixed installation issue.
+* December, 2022.
+* [https://pypi.org/project/claydates/1.0.1/](https://pypi.org/project/claydates/1.0.1/)
+
 ### version 1.0.0.
 * Developed and published.
 * December, 2022.
