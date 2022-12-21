@@ -95,7 +95,7 @@ The claydates package serves to clean and restructure financial data retrieved f
 
 ## Quick-Usage Examples <a name = "quickUse"></a>
 
-**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick-usage example provided here.**
+**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick-usage example outlined here.**
 
 ### SingleTickerProcessor <a name = "stpro"></a>
 ```
