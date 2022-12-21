@@ -1,6 +1,6 @@
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / "README.md").read_text()
+long_description = (this_directory / 'README.md').read_text()
 
 from setuptools import setup, find_packages
 
@@ -10,7 +10,7 @@ setup(
       description='Package used for cleaning, restructuring, logging, and plotting of financial data retrieved from the Twelve Data API.',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      readme = 'README.md',
+      readme='README.md',
       author='Clayton Duffin',
       author_email='clayduffin@gmail.com',
       license_files = ('LICENSE'),
