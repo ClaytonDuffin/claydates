@@ -1,13 +1,12 @@
+from setuptools import setup, find_packages
 from pathlib import Path
 this_directory = Path(__file__).parent
-long_description = (this_directory / 'README.md').read_text()
 
-from setuptools import setup, find_packages
 setup(
       name='claydates',
-      version='1.0.3',
+      version='1.0.4',
       description='Package used for cleaning, restructuring, logging, and plotting of financial data retrieved from the Twelve Data API.',
-      long_description=long_description,
+      long_description=(this_directory / 'README.md').read_text(),
       long_description_content_type='text/markdown',
       url='https://github.com/ClaytonDuffin/claydates',
       readme='README.md',
