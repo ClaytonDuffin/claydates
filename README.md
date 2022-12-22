@@ -6,7 +6,7 @@
 + [Installation](#installation)
 + [Description](#description)
 + [Directory Tree](#dirtree)
-+ [Quick Usage Examples](#quickUse)
++ [Quick Usage Examples](#usage)
     + [SingleTickerProcessor](#stpro)
     + [MultiTickerProcessor](#mtpro)
     + [SingleTickerPlotter](#stplo)
@@ -93,9 +93,9 @@ The claydates package serves to clean and restructure financial data retrieved f
                                         testMultiTickerPlotter.py
 ```
 
-## Quick-Usage Examples <a name = "quickUse"></a>
+## Quick Usage Examples <a name = "usage"></a>
 
-**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick-usage example outlined here.**
+**For additional descriptions of arguments and methods, refer to the examples folder, which further details each quick usage example outlined here.**
 
 ### SingleTickerProcessor <a name = "stpro"></a>
 ```
