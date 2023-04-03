@@ -169,8 +169,8 @@ The claydates package serves to clean and restructure financial data retrieved f
 2.) from claydates import SingleTickerPlotter
 
     2a.) singleTickerPlotter.datetimeHandler('missingDataIncludedInFrame') 
-    2b.) singleTickerPlotter.datetimeHandler('missingDataIncludedInFrame') 
-    2c.) singleTickerPlotter.datetimeHandler('missingDataIncludedInFrame') 
+    2b.) singleTickerPlotter.datetimeHandler('missingPercentage') 
+    2c.) singleTickerPlotter.datetimeHandler('lagTime') 
 ```
 ```
 3.) from claydates import SingleTickerPlotter
